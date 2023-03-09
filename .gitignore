@@ -1,4 +1,2 @@
-__pycache__
-data
-*lastrun.py
-*DS_Store
+/data/*
+*_lastrun.py

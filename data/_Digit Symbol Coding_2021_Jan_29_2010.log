@@ -1,0 +1,755 @@
+6.7897 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+8.1955 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([1., 1., 1.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019F7969BBE0>, gamma=None, gammaErrorPolicy='raise', kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000019F783F77F0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='pix', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+8.1957 	EXP 	window1: recordFrameIntervals = False
+8.3782 	EXP 	window1: recordFrameIntervals = True
+8.5830 	WARNING 	t of last frame was 21.83ms (=1/45)
+8.6220 	WARNING 	t of last frame was 23.07ms (=1/43)
+8.7032 	WARNING 	t of last frame was 22.56ms (=1/44)
+8.7259 	WARNING 	t of last frame was 22.71ms (=1/44)
+8.7865 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+8.9640 	EXP 	window1: recordFrameIntervals = False
+9.0959 	EXP 	Created instructions_1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/instructions1.jpg', interpolate=True, mask=None, maskParams=None, name='instructions_1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([978, 575]), texRes=128, units='pix', win=Window(...))
+9.1300 	EXP 	Created instructions_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/instructions2.jpg', interpolate=True, mask=None, maskParams=None, name='instructions_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([978, 674]), texRes=128, units='pix', win=Window(...))
+9.1549 	EXP 	Created practiceimg1 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/practice1.jpg', interpolate=True, mask=None, maskParams=None, name='practiceimg1', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([978, 353]), texRes=128, units='pix', win=Window(...))
+9.1661 	EXP 	Created incorrect = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/practice-incorrect.jpg', interpolate=True, mask=None, maskParams=None, name='incorrect', opacity=1.0, ori=0.0, pos=array([   0., -250.]), size=array([349,  80]), texRes=128, units='pix', win=Window(...))
+9.1906 	EXP 	Created practice_img_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/practice2.jpg', interpolate=True, mask=None, maskParams=None, name='practice_img_2', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([978, 321]), texRes=128, units='pix', win=Window(...))
+9.1939 	EXP 	Created incorrect_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/practice-incorrect.jpg', interpolate=True, mask=None, maskParams=None, name='incorrect_2', opacity=1.0, ori=0.0, pos=array([   0., -250.]), size=array([349,  80]), texRes=128, units='pix', win=Window(...))
+9.2182 	EXP 	Created practiceimg3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/practice3.jpg', interpolate=True, mask=None, maskParams=None, name='practiceimg3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([978, 336]), texRes=128, units='pix', win=Window(...))
+9.2213 	EXP 	Created incorrect_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='images/practice-incorrect.jpg', interpolate=True, mask=None, maskParams=None, name='incorrect_3', opacity=1.0, ori=0.0, pos=array([   0., -250.]), size=array([349,  80]), texRes=128, units='pix', win=Window(...))
+9.2459 	EXP 	Created instructions_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image='images/instructions3.jpg', interpolate=True, mask=None, maskParams=None, name='instructions_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([739, 441]), texRes=128, units='pix', win=Window(...))
+9.2499 	EXP 	Created key = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='key', opacity=1.0, ori=0.0, pos=array([  0., -80.]), size=array([0.5, 0.5]), texRes=128, units='pix', win=Window(...))
+9.2539 	EXP 	Created symbol = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='symbol', opacity=1.0, ori=0.0, pos=array([  0., 120.]), size=array([0.5, 0.5]), texRes=128, units='pix', win=Window(...))
+9.4358 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='black', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=20, italic=False, languageStyle='LTR', name='text', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([0., 0., 0.]), text='You have completed the task :)', units='pix', win=Window(...), wrapWidth=500)
+9.4804 	EXP 	instructions_1: autoDraw = True
+43.3307 	DATA 	Keypress: return
+43.3492 	EXP 	instructions_1: autoDraw = False
+43.3492 	EXP 	instructions_2: autoDraw = True
+50.7773 	DATA 	Keypress: return
+50.7981 	EXP 	instructions_2: autoDraw = False
+50.7981 	EXP 	incorrect: opacity = 0.0
+50.7981 	EXP 	practiceimg1: autoDraw = True
+50.7981 	EXP 	incorrect: autoDraw = True
+53.2189 	DATA 	Keypress: 1
+53.2417 	EXP 	practiceimg1: autoDraw = False
+53.2417 	EXP 	incorrect: autoDraw = False
+53.2417 	EXP 	incorrect_2: opacity = 0.0
+53.2417 	EXP 	practice_img_2: autoDraw = True
+53.2417 	EXP 	incorrect_2: autoDraw = True
+56.3272 	DATA 	Keypress: 3
+56.3490 	EXP 	practice_img_2: autoDraw = False
+56.3490 	EXP 	incorrect_2: autoDraw = False
+56.3490 	EXP 	incorrect_3: opacity = 0.0
+56.3490 	EXP 	practiceimg3: autoDraw = True
+56.3490 	EXP 	incorrect_3: autoDraw = True
+57.6712 	DATA 	Keypress: 2
+57.6915 	EXP 	practiceimg3: autoDraw = False
+57.6915 	EXP 	incorrect_3: autoDraw = False
+57.6915 	EXP 	instructions_3: autoDraw = True
+72.2317 	EXP 	Imported coding.xlsx as conditions, 215 conditions, 2 params
+72.2330 	EXP 	Created sequence: sequential, trialTypes=215, nReps=1, seed=None
+72.2336 	EXP 	New trial (rep=0, index=0): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+72.2618 	DATA 	Keypress: return
+72.2770 	EXP 	instructions_3: autoDraw = False
+72.2770 	EXP 	key: size = array([794, 173])
+72.2770 	EXP 	key: image = 'images/key.JPG'
+72.2770 	EXP 	symbol: size = array([111, 108])
+72.2770 	EXP 	symbol: image = '4.jpg'
+72.2770 	EXP 	key: autoDraw = True
+72.2770 	EXP 	symbol: autoDraw = True
+74.3495 	DATA 	Keypress: 1
+76.9437 	DATA 	Keypress: 1
+76.9633 	EXP 	New trial (rep=0, index=1): OrderedDict([('imgpath', '9.jpg'), ('corrans', ['3'])])
+77.0028 	EXP 	key: autoDraw = False
+77.0028 	EXP 	symbol: autoDraw = False
+77.0028 	EXP 	key: size = array([794, 173])
+77.0028 	EXP 	key: image = 'images/key.JPG'
+77.0028 	EXP 	symbol: size = array([109,  93])
+77.0028 	EXP 	symbol: image = '9.jpg'
+77.0028 	EXP 	key: autoDraw = True
+77.0028 	EXP 	symbol: autoDraw = True
+80.1737 	EXP 	New trial (rep=0, index=2): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+80.1969 	DATA 	Keypress: 3
+80.2109 	EXP 	key: autoDraw = False
+80.2109 	EXP 	symbol: autoDraw = False
+80.2109 	EXP 	key: size = array([794, 173])
+80.2109 	EXP 	key: image = 'images/key.JPG'
+80.2109 	EXP 	symbol: size = array([107, 110])
+80.2109 	EXP 	symbol: image = '5.jpg'
+80.2109 	EXP 	key: autoDraw = True
+80.2109 	EXP 	symbol: autoDraw = True
+81.7806 	EXP 	New trial (rep=0, index=3): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+81.8006 	DATA 	Keypress: 2
+81.8138 	EXP 	key: autoDraw = False
+81.8138 	EXP 	symbol: autoDraw = False
+81.8138 	EXP 	key: size = array([794, 173])
+81.8138 	EXP 	key: image = 'images/key.JPG'
+81.8138 	EXP 	symbol: size = array([111, 111])
+81.8138 	EXP 	symbol: image = '1.jpg'
+81.8138 	EXP 	key: autoDraw = True
+81.8138 	EXP 	symbol: autoDraw = True
+82.7503 	EXP 	New trial (rep=0, index=4): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+82.7728 	DATA 	Keypress: 1
+82.7881 	EXP 	key: autoDraw = False
+82.7881 	EXP 	symbol: autoDraw = False
+82.7881 	EXP 	key: size = array([794, 173])
+82.7881 	EXP 	key: image = 'images/key.JPG'
+82.7881 	EXP 	symbol: size = array([105, 109])
+82.7881 	EXP 	symbol: image = '8.jpg'
+82.7881 	EXP 	key: autoDraw = True
+82.7881 	EXP 	symbol: autoDraw = True
+84.4655 	EXP 	New trial (rep=0, index=5): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+84.4779 	DATA 	Keypress: 2
+84.4936 	EXP 	key: autoDraw = False
+84.4936 	EXP 	symbol: autoDraw = False
+84.4936 	EXP 	key: size = array([794, 173])
+84.4936 	EXP 	key: image = 'images/key.JPG'
+84.4936 	EXP 	symbol: size = array([111, 111])
+84.4936 	EXP 	symbol: image = '1.jpg'
+84.4936 	EXP 	key: autoDraw = True
+84.4936 	EXP 	symbol: autoDraw = True
+85.4837 	EXP 	New trial (rep=0, index=6): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+85.4999 	DATA 	Keypress: 1
+85.5148 	EXP 	key: autoDraw = False
+85.5148 	EXP 	symbol: autoDraw = False
+85.5148 	EXP 	key: size = array([794, 173])
+85.5148 	EXP 	key: image = 'images/key.JPG'
+85.5148 	EXP 	symbol: size = array([111, 108])
+85.5148 	EXP 	symbol: image = '4.jpg'
+85.5148 	EXP 	key: autoDraw = True
+85.5148 	EXP 	symbol: autoDraw = True
+87.4671 	EXP 	New trial (rep=0, index=7): OrderedDict([('imgpath', '6.jpg'), ('corrans', ['3'])])
+87.4976 	DATA 	Keypress: 1
+87.5129 	EXP 	key: autoDraw = False
+87.5129 	EXP 	symbol: autoDraw = False
+87.5129 	EXP 	key: size = array([794, 173])
+87.5129 	EXP 	key: image = 'images/key.JPG'
+87.5129 	EXP 	symbol: size = array([101, 106])
+87.5129 	EXP 	symbol: image = '6.jpg'
+87.5129 	EXP 	key: autoDraw = True
+87.5129 	EXP 	symbol: autoDraw = True
+89.1377 	EXP 	New trial (rep=0, index=8): OrderedDict([('imgpath', '9.jpg'), ('corrans', ['3'])])
+89.1518 	DATA 	Keypress: 3
+89.1669 	EXP 	key: autoDraw = False
+89.1669 	EXP 	symbol: autoDraw = False
+89.1669 	EXP 	key: size = array([794, 173])
+89.1669 	EXP 	key: image = 'images/key.JPG'
+89.1669 	EXP 	symbol: size = array([109,  93])
+89.1669 	EXP 	symbol: image = '9.jpg'
+89.1669 	EXP 	key: autoDraw = True
+89.1669 	EXP 	symbol: autoDraw = True
+90.2416 	EXP 	New trial (rep=0, index=9): OrderedDict([('imgpath', '3.jpg'), ('corrans', ['3'])])
+90.2661 	DATA 	Keypress: 3
+90.2818 	EXP 	key: autoDraw = False
+90.2818 	EXP 	symbol: autoDraw = False
+90.2818 	EXP 	key: size = array([794, 173])
+90.2818 	EXP 	key: image = 'images/key.JPG'
+90.2818 	EXP 	symbol: size = array([114, 105])
+90.2818 	EXP 	symbol: image = '3.jpg'
+90.2818 	EXP 	key: autoDraw = True
+90.2818 	EXP 	symbol: autoDraw = True
+91.5948 	EXP 	New trial (rep=0, index=10): OrderedDict([('imgpath', '2.jpg'), ('corrans', ['2'])])
+91.6218 	DATA 	Keypress: 3
+91.6368 	EXP 	key: autoDraw = False
+91.6368 	EXP 	symbol: autoDraw = False
+91.6368 	EXP 	key: size = array([794, 173])
+91.6368 	EXP 	key: image = 'images/key.JPG'
+91.6368 	EXP 	symbol: size = array([114, 110])
+91.6368 	EXP 	symbol: image = '2.jpg'
+91.6368 	EXP 	key: autoDraw = True
+91.6368 	EXP 	symbol: autoDraw = True
+92.5492 	EXP 	New trial (rep=0, index=11): OrderedDict([('imgpath', '9.jpg'), ('corrans', ['3'])])
+92.5617 	DATA 	Keypress: 2
+92.5773 	EXP 	key: autoDraw = False
+92.5773 	EXP 	symbol: autoDraw = False
+92.5773 	EXP 	key: size = array([794, 173])
+92.5773 	EXP 	key: image = 'images/key.JPG'
+92.5773 	EXP 	symbol: size = array([109,  93])
+92.5773 	EXP 	symbol: image = '9.jpg'
+92.5773 	EXP 	key: autoDraw = True
+92.5773 	EXP 	symbol: autoDraw = True
+93.5647 	EXP 	New trial (rep=0, index=12): OrderedDict([('imgpath', '2.jpg'), ('corrans', ['2'])])
+93.5804 	DATA 	Keypress: 3
+93.5960 	EXP 	key: autoDraw = False
+93.5960 	EXP 	symbol: autoDraw = False
+93.5960 	EXP 	key: size = array([794, 173])
+93.5960 	EXP 	key: image = 'images/key.JPG'
+93.5960 	EXP 	symbol: size = array([114, 110])
+93.5960 	EXP 	symbol: image = '2.jpg'
+93.5960 	EXP 	key: autoDraw = True
+93.5960 	EXP 	symbol: autoDraw = True
+94.5335 	EXP 	New trial (rep=0, index=13): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+94.5498 	DATA 	Keypress: 2
+94.5655 	EXP 	key: autoDraw = False
+94.5655 	EXP 	symbol: autoDraw = False
+94.5655 	EXP 	key: size = array([794, 173])
+94.5655 	EXP 	key: image = 'images/key.JPG'
+94.5655 	EXP 	symbol: size = array([105, 109])
+94.5655 	EXP 	symbol: image = '8.jpg'
+94.5655 	EXP 	key: autoDraw = True
+94.5655 	EXP 	symbol: autoDraw = True
+95.6007 	EXP 	New trial (rep=0, index=14): OrderedDict([('imgpath', '3.jpg'), ('corrans', ['3'])])
+95.6127 	DATA 	Keypress: 2
+95.6279 	EXP 	key: autoDraw = False
+95.6279 	EXP 	symbol: autoDraw = False
+95.6279 	EXP 	key: size = array([794, 173])
+95.6279 	EXP 	key: image = 'images/key.JPG'
+95.6279 	EXP 	symbol: size = array([114, 105])
+95.6279 	EXP 	symbol: image = '3.jpg'
+95.6279 	EXP 	key: autoDraw = True
+95.6279 	EXP 	symbol: autoDraw = True
+96.6780 	DATA 	Keypress: 3
+96.6984 	EXP 	New trial (rep=0, index=15): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+96.7280 	EXP 	key: autoDraw = False
+96.7280 	EXP 	symbol: autoDraw = False
+96.7280 	EXP 	key: size = array([794, 173])
+96.7280 	EXP 	key: image = 'images/key.JPG'
+96.7280 	EXP 	symbol: size = array([111, 111])
+96.7280 	EXP 	symbol: image = '1.jpg'
+96.7280 	EXP 	key: autoDraw = True
+96.7280 	EXP 	symbol: autoDraw = True
+97.4558 	EXP 	New trial (rep=0, index=16): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+97.4728 	DATA 	Keypress: 1
+97.4885 	EXP 	key: autoDraw = False
+97.4885 	EXP 	symbol: autoDraw = False
+97.4885 	EXP 	key: size = array([794, 173])
+97.4885 	EXP 	key: image = 'images/key.JPG'
+97.4885 	EXP 	symbol: size = array([111, 108])
+97.4885 	EXP 	symbol: image = '4.jpg'
+97.4885 	EXP 	key: autoDraw = True
+97.4885 	EXP 	symbol: autoDraw = True
+98.9788 	EXP 	New trial (rep=0, index=17): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+98.9890 	DATA 	Keypress: 1
+99.0040 	EXP 	key: autoDraw = False
+99.0040 	EXP 	symbol: autoDraw = False
+99.0040 	EXP 	key: size = array([794, 173])
+99.0040 	EXP 	key: image = 'images/key.JPG'
+99.0040 	EXP 	symbol: size = array([111, 111])
+99.0040 	EXP 	symbol: image = '1.jpg'
+99.0040 	EXP 	key: autoDraw = True
+99.0040 	EXP 	symbol: autoDraw = True
+99.8236 	EXP 	New trial (rep=0, index=18): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+99.8498 	DATA 	Keypress: 1
+99.8658 	EXP 	key: autoDraw = False
+99.8658 	EXP 	symbol: autoDraw = False
+99.8658 	EXP 	key: size = array([794, 173])
+99.8658 	EXP 	key: image = 'images/key.JPG'
+99.8658 	EXP 	symbol: size = array([113, 110])
+99.8658 	EXP 	symbol: image = '7.jpg'
+99.8658 	EXP 	key: autoDraw = True
+99.8658 	EXP 	symbol: autoDraw = True
+100.9207 	EXP 	New trial (rep=0, index=19): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+100.9325 	DATA 	Keypress: 1
+100.9472 	EXP 	key: autoDraw = False
+100.9472 	EXP 	symbol: autoDraw = False
+100.9472 	EXP 	key: size = array([794, 173])
+100.9472 	EXP 	key: image = 'images/key.JPG'
+100.9472 	EXP 	symbol: size = array([105, 109])
+100.9472 	EXP 	symbol: image = '8.jpg'
+100.9472 	EXP 	key: autoDraw = True
+100.9472 	EXP 	symbol: autoDraw = True
+101.9978 	EXP 	New trial (rep=0, index=20): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+102.0108 	DATA 	Keypress: 2
+102.0247 	EXP 	key: autoDraw = False
+102.0247 	EXP 	symbol: autoDraw = False
+102.0247 	EXP 	key: size = array([794, 173])
+102.0247 	EXP 	key: image = 'images/key.JPG'
+102.0247 	EXP 	symbol: size = array([113, 110])
+102.0247 	EXP 	symbol: image = '7.jpg'
+102.0247 	EXP 	key: autoDraw = True
+102.0247 	EXP 	symbol: autoDraw = True
+103.0726 	EXP 	New trial (rep=0, index=21): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+103.0899 	DATA 	Keypress: 1
+103.1050 	EXP 	key: autoDraw = False
+103.1050 	EXP 	symbol: autoDraw = False
+103.1050 	EXP 	key: size = array([794, 173])
+103.1050 	EXP 	key: image = 'images/key.JPG'
+103.1050 	EXP 	symbol: size = array([111, 108])
+103.1050 	EXP 	symbol: image = '4.jpg'
+103.1050 	EXP 	key: autoDraw = True
+103.1050 	EXP 	symbol: autoDraw = True
+104.9467 	EXP 	New trial (rep=0, index=22): OrderedDict([('imgpath', '2.jpg'), ('corrans', ['2'])])
+104.9598 	DATA 	Keypress: 1
+104.9747 	EXP 	key: autoDraw = False
+104.9747 	EXP 	symbol: autoDraw = False
+104.9747 	EXP 	key: size = array([794, 173])
+104.9747 	EXP 	key: image = 'images/key.JPG'
+104.9747 	EXP 	symbol: size = array([114, 110])
+104.9747 	EXP 	symbol: image = '2.jpg'
+104.9747 	EXP 	key: autoDraw = True
+104.9747 	EXP 	symbol: autoDraw = True
+105.9028 	EXP 	New trial (rep=0, index=23): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+105.9155 	DATA 	Keypress: 2
+105.9309 	EXP 	key: autoDraw = False
+105.9309 	EXP 	symbol: autoDraw = False
+105.9309 	EXP 	key: size = array([794, 173])
+105.9309 	EXP 	key: image = 'images/key.JPG'
+105.9309 	EXP 	symbol: size = array([113, 110])
+105.9309 	EXP 	symbol: image = '7.jpg'
+105.9309 	EXP 	key: autoDraw = True
+105.9309 	EXP 	symbol: autoDraw = True
+106.8593 	EXP 	New trial (rep=0, index=24): OrderedDict([('imgpath', '3.jpg'), ('corrans', ['3'])])
+106.8699 	DATA 	Keypress: 1
+106.8846 	EXP 	key: autoDraw = False
+106.8846 	EXP 	symbol: autoDraw = False
+106.8846 	EXP 	key: size = array([794, 173])
+106.8846 	EXP 	key: image = 'images/key.JPG'
+106.8846 	EXP 	symbol: size = array([114, 105])
+106.8846 	EXP 	symbol: image = '3.jpg'
+106.8846 	EXP 	key: autoDraw = True
+106.8846 	EXP 	symbol: autoDraw = True
+108.0647 	EXP 	New trial (rep=0, index=25): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+108.0786 	DATA 	Keypress: 3
+108.0940 	EXP 	key: autoDraw = False
+108.0940 	EXP 	symbol: autoDraw = False
+108.0940 	EXP 	key: size = array([794, 173])
+108.0940 	EXP 	key: image = 'images/key.JPG'
+108.0940 	EXP 	symbol: size = array([107, 110])
+108.0940 	EXP 	symbol: image = '5.jpg'
+108.0940 	EXP 	key: autoDraw = True
+108.0940 	EXP 	symbol: autoDraw = True
+109.1225 	DATA 	Keypress: 2
+109.1464 	EXP 	New trial (rep=0, index=26): OrderedDict([('imgpath', '6.jpg'), ('corrans', ['3'])])
+109.1713 	EXP 	key: autoDraw = False
+109.1713 	EXP 	symbol: autoDraw = False
+109.1713 	EXP 	key: size = array([794, 173])
+109.1713 	EXP 	key: image = 'images/key.JPG'
+109.1713 	EXP 	symbol: size = array([101, 106])
+109.1713 	EXP 	symbol: image = '6.jpg'
+109.1713 	EXP 	key: autoDraw = True
+109.1713 	EXP 	symbol: autoDraw = True
+110.1677 	EXP 	New trial (rep=0, index=27): OrderedDict([('imgpath', '3.jpg'), ('corrans', ['3'])])
+110.1794 	DATA 	Keypress: 1
+110.1945 	EXP 	key: autoDraw = False
+110.1945 	EXP 	symbol: autoDraw = False
+110.1945 	EXP 	key: size = array([794, 173])
+110.1945 	EXP 	key: image = 'images/key.JPG'
+110.1945 	EXP 	symbol: size = array([114, 105])
+110.1945 	EXP 	symbol: image = '3.jpg'
+110.1945 	EXP 	key: autoDraw = True
+110.1945 	EXP 	symbol: autoDraw = True
+111.5127 	EXP 	New trial (rep=0, index=28): OrderedDict([('imgpath', '6.jpg'), ('corrans', ['3'])])
+111.5268 	DATA 	Keypress: 3
+111.5425 	EXP 	key: autoDraw = False
+111.5425 	EXP 	symbol: autoDraw = False
+111.5425 	EXP 	key: size = array([794, 173])
+111.5425 	EXP 	key: image = 'images/key.JPG'
+111.5425 	EXP 	symbol: size = array([101, 106])
+111.5425 	EXP 	symbol: image = '6.jpg'
+111.5425 	EXP 	key: autoDraw = True
+111.5425 	EXP 	symbol: autoDraw = True
+112.5755 	EXP 	New trial (rep=0, index=29): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+112.5919 	DATA 	Keypress: 3
+112.6071 	EXP 	key: autoDraw = False
+112.6071 	EXP 	symbol: autoDraw = False
+112.6071 	EXP 	key: size = array([794, 173])
+112.6071 	EXP 	key: image = 'images/key.JPG'
+112.6071 	EXP 	symbol: size = array([111, 108])
+112.6071 	EXP 	symbol: image = '4.jpg'
+112.6071 	EXP 	key: autoDraw = True
+112.6071 	EXP 	symbol: autoDraw = True
+113.9551 	EXP 	New trial (rep=0, index=30): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+113.9663 	DATA 	Keypress: 1
+113.9836 	EXP 	key: autoDraw = False
+113.9836 	EXP 	symbol: autoDraw = False
+113.9836 	EXP 	key: size = array([794, 173])
+113.9836 	EXP 	key: image = 'images/key.JPG'
+113.9836 	EXP 	symbol: size = array([105, 109])
+113.9836 	EXP 	symbol: image = '8.jpg'
+113.9836 	EXP 	key: autoDraw = True
+113.9836 	EXP 	symbol: autoDraw = True
+115.0223 	EXP 	New trial (rep=0, index=31): OrderedDict([('imgpath', '6.jpg'), ('corrans', ['3'])])
+115.0320 	DATA 	Keypress: 2
+115.0474 	EXP 	key: autoDraw = False
+115.0474 	EXP 	symbol: autoDraw = False
+115.0474 	EXP 	key: size = array([794, 173])
+115.0474 	EXP 	key: image = 'images/key.JPG'
+115.0474 	EXP 	symbol: size = array([101, 106])
+115.0474 	EXP 	symbol: image = '6.jpg'
+115.0474 	EXP 	key: autoDraw = True
+115.0474 	EXP 	symbol: autoDraw = True
+116.3251 	DATA 	Keypress: 1
+116.3442 	EXP 	New trial (rep=0, index=32): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+116.3741 	EXP 	key: autoDraw = False
+116.3741 	EXP 	symbol: autoDraw = False
+116.3741 	EXP 	key: size = array([794, 173])
+116.3741 	EXP 	key: image = 'images/key.JPG'
+116.3741 	EXP 	symbol: size = array([111, 111])
+116.3741 	EXP 	symbol: image = '1.jpg'
+116.3741 	EXP 	key: autoDraw = True
+116.3741 	EXP 	symbol: autoDraw = True
+116.4916 	EXP 	New trial (rep=0, index=33): OrderedDict([('imgpath', '3.jpg'), ('corrans', ['3'])])
+116.5038 	DATA 	Keypress: 1
+116.5191 	EXP 	key: autoDraw = False
+116.5191 	EXP 	symbol: autoDraw = False
+116.5191 	EXP 	key: size = array([794, 173])
+116.5191 	EXP 	key: image = 'images/key.JPG'
+116.5191 	EXP 	symbol: size = array([114, 105])
+116.5191 	EXP 	symbol: image = '3.jpg'
+116.5191 	EXP 	key: autoDraw = True
+116.5191 	EXP 	symbol: autoDraw = True
+118.0286 	EXP 	New trial (rep=0, index=34): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+118.0417 	DATA 	Keypress: 3
+118.0571 	EXP 	key: autoDraw = False
+118.0571 	EXP 	symbol: autoDraw = False
+118.0571 	EXP 	key: size = array([794, 173])
+118.0571 	EXP 	key: image = 'images/key.JPG'
+118.0571 	EXP 	symbol: size = array([113, 110])
+118.0571 	EXP 	symbol: image = '7.jpg'
+118.0571 	EXP 	key: autoDraw = True
+118.0571 	EXP 	symbol: autoDraw = True
+119.2998 	EXP 	New trial (rep=0, index=35): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+119.3152 	DATA 	Keypress: 1
+119.3297 	EXP 	key: autoDraw = False
+119.3297 	EXP 	symbol: autoDraw = False
+119.3297 	EXP 	key: size = array([794, 173])
+119.3297 	EXP 	key: image = 'images/key.JPG'
+119.3297 	EXP 	symbol: size = array([107, 110])
+119.3297 	EXP 	symbol: image = '5.jpg'
+119.3297 	EXP 	key: autoDraw = True
+119.3297 	EXP 	symbol: autoDraw = True
+120.3088 	EXP 	New trial (rep=0, index=36): OrderedDict([('imgpath', '6.jpg'), ('corrans', ['3'])])
+120.3211 	DATA 	Keypress: 2
+120.3350 	EXP 	key: autoDraw = False
+120.3350 	EXP 	symbol: autoDraw = False
+120.3350 	EXP 	key: size = array([794, 173])
+120.3350 	EXP 	key: image = 'images/key.JPG'
+120.3350 	EXP 	symbol: size = array([101, 106])
+120.3350 	EXP 	symbol: image = '6.jpg'
+120.3350 	EXP 	key: autoDraw = True
+120.3350 	EXP 	symbol: autoDraw = True
+121.7678 	EXP 	New trial (rep=0, index=37): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+121.7787 	DATA 	Keypress: 3
+121.7934 	EXP 	key: autoDraw = False
+121.7934 	EXP 	symbol: autoDraw = False
+121.7934 	EXP 	key: size = array([794, 173])
+121.7934 	EXP 	key: image = 'images/key.JPG'
+121.7934 	EXP 	symbol: size = array([107, 110])
+121.7934 	EXP 	symbol: image = '5.jpg'
+121.7934 	EXP 	key: autoDraw = True
+121.7934 	EXP 	symbol: autoDraw = True
+122.9960 	EXP 	New trial (rep=0, index=38): OrderedDict([('imgpath', '6.jpg'), ('corrans', ['3'])])
+123.0079 	DATA 	Keypress: 2
+123.0226 	EXP 	key: autoDraw = False
+123.0226 	EXP 	symbol: autoDraw = False
+123.0226 	EXP 	key: size = array([794, 173])
+123.0226 	EXP 	key: image = 'images/key.JPG'
+123.0226 	EXP 	symbol: size = array([101, 106])
+123.0226 	EXP 	symbol: image = '6.jpg'
+123.0226 	EXP 	key: autoDraw = True
+123.0226 	EXP 	symbol: autoDraw = True
+125.7410 	EXP 	New trial (rep=0, index=39): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+125.7511 	DATA 	Keypress: 3
+125.7661 	EXP 	key: autoDraw = False
+125.7661 	EXP 	symbol: autoDraw = False
+125.7661 	EXP 	key: size = array([794, 173])
+125.7661 	EXP 	key: image = 'images/key.JPG'
+125.7661 	EXP 	symbol: size = array([105, 109])
+125.7661 	EXP 	symbol: image = '8.jpg'
+125.7661 	EXP 	key: autoDraw = True
+125.7661 	EXP 	symbol: autoDraw = True
+127.2842 	DATA 	Keypress: 2
+127.3088 	EXP 	New trial (rep=0, index=40): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+127.3334 	EXP 	key: autoDraw = False
+127.3334 	EXP 	symbol: autoDraw = False
+127.3334 	EXP 	key: size = array([794, 173])
+127.3334 	EXP 	key: image = 'images/key.JPG'
+127.3334 	EXP 	symbol: size = array([113, 110])
+127.3334 	EXP 	symbol: image = '7.jpg'
+127.3334 	EXP 	key: autoDraw = True
+127.3334 	EXP 	symbol: autoDraw = True
+128.4220 	EXP 	New trial (rep=0, index=41): OrderedDict([('imgpath', '9.jpg'), ('corrans', ['3'])])
+128.4390 	DATA 	Keypress: 1
+128.4545 	EXP 	key: autoDraw = False
+128.4545 	EXP 	symbol: autoDraw = False
+128.4545 	EXP 	key: size = array([794, 173])
+128.4545 	EXP 	key: image = 'images/key.JPG'
+128.4545 	EXP 	symbol: size = array([109,  93])
+128.4545 	EXP 	symbol: image = '9.jpg'
+128.4545 	EXP 	key: autoDraw = True
+128.4545 	EXP 	symbol: autoDraw = True
+129.3988 	EXP 	New trial (rep=0, index=42): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+129.4159 	DATA 	Keypress: 3
+129.4312 	EXP 	key: autoDraw = False
+129.4312 	EXP 	symbol: autoDraw = False
+129.4312 	EXP 	key: size = array([794, 173])
+129.4312 	EXP 	key: image = 'images/key.JPG'
+129.4312 	EXP 	symbol: size = array([107, 110])
+129.4312 	EXP 	symbol: image = '5.jpg'
+129.4312 	EXP 	key: autoDraw = True
+129.4312 	EXP 	symbol: autoDraw = True
+130.6000 	EXP 	New trial (rep=0, index=43): OrderedDict([('imgpath', '3.jpg'), ('corrans', ['3'])])
+130.6104 	DATA 	Keypress: 2
+130.6282 	EXP 	key: autoDraw = False
+130.6282 	EXP 	symbol: autoDraw = False
+130.6282 	EXP 	key: size = array([794, 173])
+130.6282 	EXP 	key: image = 'images/key.JPG'
+130.6282 	EXP 	symbol: size = array([114, 105])
+130.6282 	EXP 	symbol: image = '3.jpg'
+130.6282 	EXP 	key: autoDraw = True
+130.6282 	EXP 	symbol: autoDraw = True
+132.2438 	EXP 	New trial (rep=0, index=44): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+132.2564 	DATA 	Keypress: 3
+132.2702 	EXP 	key: autoDraw = False
+132.2702 	EXP 	symbol: autoDraw = False
+132.2702 	EXP 	key: size = array([794, 173])
+132.2702 	EXP 	key: image = 'images/key.JPG'
+132.2702 	EXP 	symbol: size = array([111, 111])
+132.2702 	EXP 	symbol: image = '1.jpg'
+132.2702 	EXP 	key: autoDraw = True
+132.2702 	EXP 	symbol: autoDraw = True
+133.3200 	EXP 	New trial (rep=0, index=45): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+133.3303 	DATA 	Keypress: 1
+133.3474 	EXP 	key: autoDraw = False
+133.3474 	EXP 	symbol: autoDraw = False
+133.3474 	EXP 	key: size = array([794, 173])
+133.3474 	EXP 	key: image = 'images/key.JPG'
+133.3474 	EXP 	symbol: size = array([113, 110])
+133.3474 	EXP 	symbol: image = '7.jpg'
+133.3474 	EXP 	key: autoDraw = True
+133.3474 	EXP 	symbol: autoDraw = True
+135.5772 	EXP 	New trial (rep=0, index=46): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+135.5898 	DATA 	Keypress: 1
+135.6047 	EXP 	key: autoDraw = False
+135.6047 	EXP 	symbol: autoDraw = False
+135.6047 	EXP 	key: size = array([794, 173])
+135.6047 	EXP 	key: image = 'images/key.JPG'
+135.6047 	EXP 	symbol: size = array([107, 110])
+135.6047 	EXP 	symbol: image = '5.jpg'
+135.6047 	EXP 	key: autoDraw = True
+135.6047 	EXP 	symbol: autoDraw = True
+136.7508 	EXP 	New trial (rep=0, index=47): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+136.7620 	DATA 	Keypress: 2
+136.7770 	EXP 	key: autoDraw = False
+136.7770 	EXP 	symbol: autoDraw = False
+136.7770 	EXP 	key: size = array([794, 173])
+136.7770 	EXP 	key: image = 'images/key.JPG'
+136.7770 	EXP 	symbol: size = array([111, 108])
+136.7770 	EXP 	symbol: image = '4.jpg'
+136.7770 	EXP 	key: autoDraw = True
+136.7770 	EXP 	symbol: autoDraw = True
+138.0256 	EXP 	New trial (rep=0, index=48): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+138.0364 	DATA 	Keypress: 1
+138.0498 	EXP 	key: autoDraw = False
+138.0498 	EXP 	symbol: autoDraw = False
+138.0498 	EXP 	key: size = array([794, 173])
+138.0498 	EXP 	key: image = 'images/key.JPG'
+138.0498 	EXP 	symbol: size = array([105, 109])
+138.0498 	EXP 	symbol: image = '8.jpg'
+138.0498 	EXP 	key: autoDraw = True
+138.0498 	EXP 	symbol: autoDraw = True
+139.7427 	EXP 	New trial (rep=0, index=49): OrderedDict([('imgpath', '6.jpg'), ('corrans', ['3'])])
+139.7576 	DATA 	Keypress: 2
+139.7736 	EXP 	key: autoDraw = False
+139.7736 	EXP 	symbol: autoDraw = False
+139.7736 	EXP 	key: size = array([794, 173])
+139.7736 	EXP 	key: image = 'images/key.JPG'
+139.7736 	EXP 	symbol: size = array([101, 106])
+139.7736 	EXP 	symbol: image = '6.jpg'
+139.7736 	EXP 	key: autoDraw = True
+139.7736 	EXP 	symbol: autoDraw = True
+141.4345 	DATA 	Keypress: 3
+141.4575 	EXP 	New trial (rep=0, index=50): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+141.4871 	EXP 	key: autoDraw = False
+141.4871 	EXP 	symbol: autoDraw = False
+141.4871 	EXP 	key: size = array([794, 173])
+141.4871 	EXP 	key: image = 'images/key.JPG'
+141.4871 	EXP 	symbol: size = array([111, 111])
+141.4871 	EXP 	symbol: image = '1.jpg'
+141.4871 	EXP 	key: autoDraw = True
+141.4871 	EXP 	symbol: autoDraw = True
+142.3338 	EXP 	New trial (rep=0, index=51): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+142.3439 	DATA 	Keypress: 1
+142.3592 	EXP 	key: autoDraw = False
+142.3592 	EXP 	symbol: autoDraw = False
+142.3592 	EXP 	key: size = array([794, 173])
+142.3592 	EXP 	key: image = 'images/key.JPG'
+142.3592 	EXP 	symbol: size = array([107, 110])
+142.3592 	EXP 	symbol: image = '5.jpg'
+142.3592 	EXP 	key: autoDraw = True
+142.3592 	EXP 	symbol: autoDraw = True
+143.6114 	EXP 	New trial (rep=0, index=52): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+143.6237 	DATA 	Keypress: 2
+143.6384 	EXP 	key: autoDraw = False
+143.6384 	EXP 	symbol: autoDraw = False
+143.6384 	EXP 	key: size = array([794, 173])
+143.6384 	EXP 	key: image = 'images/key.JPG'
+143.6384 	EXP 	symbol: size = array([105, 109])
+143.6384 	EXP 	symbol: image = '8.jpg'
+143.6384 	EXP 	key: autoDraw = True
+143.6384 	EXP 	symbol: autoDraw = True
+144.7989 	EXP 	New trial (rep=0, index=53): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+144.8149 	DATA 	Keypress: 3
+144.8301 	EXP 	key: autoDraw = False
+144.8301 	EXP 	symbol: autoDraw = False
+144.8301 	EXP 	key: size = array([794, 173])
+144.8301 	EXP 	key: image = 'images/key.JPG'
+144.8301 	EXP 	symbol: size = array([107, 110])
+144.8301 	EXP 	symbol: image = '5.jpg'
+144.8301 	EXP 	key: autoDraw = True
+144.8301 	EXP 	symbol: autoDraw = True
+145.8081 	EXP 	New trial (rep=0, index=54): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+145.8178 	DATA 	Keypress: 2
+145.8332 	EXP 	key: autoDraw = False
+145.8332 	EXP 	symbol: autoDraw = False
+145.8332 	EXP 	key: size = array([794, 173])
+145.8332 	EXP 	key: image = 'images/key.JPG'
+145.8332 	EXP 	symbol: size = array([111, 111])
+145.8332 	EXP 	symbol: image = '1.jpg'
+145.8332 	EXP 	key: autoDraw = True
+145.8332 	EXP 	symbol: autoDraw = True
+146.7938 	DATA 	Keypress: 1
+146.8161 	EXP 	New trial (rep=0, index=55): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+146.8443 	EXP 	key: autoDraw = False
+146.8443 	EXP 	symbol: autoDraw = False
+146.8443 	EXP 	key: size = array([794, 173])
+146.8443 	EXP 	key: image = 'images/key.JPG'
+146.8443 	EXP 	symbol: size = array([105, 109])
+146.8443 	EXP 	symbol: image = '8.jpg'
+146.8443 	EXP 	key: autoDraw = True
+146.8443 	EXP 	symbol: autoDraw = True
+148.0248 	DATA 	Keypress: 2
+148.0440 	EXP 	New trial (rep=0, index=56): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+148.0690 	EXP 	key: autoDraw = False
+148.0690 	EXP 	symbol: autoDraw = False
+148.0690 	EXP 	key: size = array([794, 173])
+148.0690 	EXP 	key: image = 'images/key.JPG'
+148.0690 	EXP 	symbol: size = array([111, 111])
+148.0690 	EXP 	symbol: image = '1.jpg'
+148.0690 	EXP 	key: autoDraw = True
+148.0690 	EXP 	symbol: autoDraw = True
+148.7859 	EXP 	New trial (rep=0, index=57): OrderedDict([('imgpath', '3.jpg'), ('corrans', ['3'])])
+148.8004 	DATA 	Keypress: 1
+148.8148 	EXP 	key: autoDraw = False
+148.8148 	EXP 	symbol: autoDraw = False
+148.8148 	EXP 	key: size = array([794, 173])
+148.8148 	EXP 	key: image = 'images/key.JPG'
+148.8148 	EXP 	symbol: size = array([114, 105])
+148.8148 	EXP 	symbol: image = '3.jpg'
+148.8148 	EXP 	key: autoDraw = True
+148.8148 	EXP 	symbol: autoDraw = True
+149.8487 	EXP 	New trial (rep=0, index=58): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+149.8600 	DATA 	Keypress: 3
+149.8744 	EXP 	key: autoDraw = False
+149.8744 	EXP 	symbol: autoDraw = False
+149.8744 	EXP 	key: size = array([794, 173])
+149.8744 	EXP 	key: image = 'images/key.JPG'
+149.8744 	EXP 	symbol: size = array([105, 109])
+149.8744 	EXP 	symbol: image = '8.jpg'
+149.8744 	EXP 	key: autoDraw = True
+149.8744 	EXP 	symbol: autoDraw = True
+150.9300 	EXP 	New trial (rep=0, index=59): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+150.9407 	DATA 	Keypress: 2
+150.9546 	EXP 	key: autoDraw = False
+150.9546 	EXP 	symbol: autoDraw = False
+150.9546 	EXP 	key: size = array([794, 173])
+150.9546 	EXP 	key: image = 'images/key.JPG'
+150.9546 	EXP 	symbol: size = array([111, 108])
+150.9546 	EXP 	symbol: image = '4.jpg'
+150.9546 	EXP 	key: autoDraw = True
+150.9546 	EXP 	symbol: autoDraw = True
+152.7595 	EXP 	New trial (rep=0, index=60): OrderedDict([('imgpath', '5.jpg'), ('corrans', ['2'])])
+152.7736 	DATA 	Keypress: 1
+152.7890 	EXP 	key: autoDraw = False
+152.7890 	EXP 	symbol: autoDraw = False
+152.7890 	EXP 	key: size = array([794, 173])
+152.7890 	EXP 	key: image = 'images/key.JPG'
+152.7890 	EXP 	symbol: size = array([107, 110])
+152.7890 	EXP 	symbol: image = '5.jpg'
+152.7890 	EXP 	key: autoDraw = True
+152.7890 	EXP 	symbol: autoDraw = True
+153.6007 	EXP 	New trial (rep=0, index=61): OrderedDict([('imgpath', '9.jpg'), ('corrans', ['3'])])
+153.6143 	DATA 	Keypress: 2
+153.6278 	EXP 	key: autoDraw = False
+153.6278 	EXP 	symbol: autoDraw = False
+153.6278 	EXP 	key: size = array([794, 173])
+153.6278 	EXP 	key: image = 'images/key.JPG'
+153.6278 	EXP 	symbol: size = array([109,  93])
+153.6278 	EXP 	symbol: image = '9.jpg'
+153.6278 	EXP 	key: autoDraw = True
+153.6278 	EXP 	symbol: autoDraw = True
+154.3786 	EXP 	New trial (rep=0, index=62): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+154.3942 	DATA 	Keypress: 3
+154.4095 	EXP 	key: autoDraw = False
+154.4095 	EXP 	symbol: autoDraw = False
+154.4095 	EXP 	key: size = array([794, 173])
+154.4095 	EXP 	key: image = 'images/key.JPG'
+154.4095 	EXP 	symbol: size = array([113, 110])
+154.4095 	EXP 	symbol: image = '7.jpg'
+154.4095 	EXP 	key: autoDraw = True
+154.4095 	EXP 	symbol: autoDraw = True
+155.3367 	EXP 	New trial (rep=0, index=63): OrderedDict([('imgpath', '8.jpg'), ('corrans', ['2'])])
+155.3485 	DATA 	Keypress: 1
+155.3627 	EXP 	key: autoDraw = False
+155.3627 	EXP 	symbol: autoDraw = False
+155.3627 	EXP 	key: size = array([794, 173])
+155.3627 	EXP 	key: image = 'images/key.JPG'
+155.3627 	EXP 	symbol: size = array([105, 109])
+155.3627 	EXP 	symbol: image = '8.jpg'
+155.3627 	EXP 	key: autoDraw = True
+155.3627 	EXP 	symbol: autoDraw = True
+156.2578 	DATA 	Keypress: 2
+156.2776 	EXP 	New trial (rep=0, index=64): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+156.3040 	EXP 	key: autoDraw = False
+156.3040 	EXP 	symbol: autoDraw = False
+156.3040 	EXP 	key: size = array([794, 173])
+156.3040 	EXP 	key: image = 'images/key.JPG'
+156.3040 	EXP 	symbol: size = array([111, 108])
+156.3040 	EXP 	symbol: image = '4.jpg'
+156.3040 	EXP 	key: autoDraw = True
+156.3040 	EXP 	symbol: autoDraw = True
+157.6876 	EXP 	New trial (rep=0, index=65): OrderedDict([('imgpath', '7.jpg'), ('corrans', ['1'])])
+157.6997 	DATA 	Keypress: 1
+157.7147 	EXP 	key: autoDraw = False
+157.7147 	EXP 	symbol: autoDraw = False
+157.7147 	EXP 	key: size = array([794, 173])
+157.7147 	EXP 	key: image = 'images/key.JPG'
+157.7147 	EXP 	symbol: size = array([113, 110])
+157.7147 	EXP 	symbol: image = '7.jpg'
+157.7147 	EXP 	key: autoDraw = True
+157.7147 	EXP 	symbol: autoDraw = True
+158.8313 	DATA 	Keypress: 1
+158.8532 	EXP 	New trial (rep=0, index=66): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+158.8792 	EXP 	key: autoDraw = False
+158.8792 	EXP 	symbol: autoDraw = False
+158.8792 	EXP 	key: size = array([794, 173])
+158.8792 	EXP 	key: image = 'images/key.JPG'
+158.8792 	EXP 	symbol: size = array([111, 111])
+158.8792 	EXP 	symbol: image = '1.jpg'
+158.8792 	EXP 	key: autoDraw = True
+158.8792 	EXP 	symbol: autoDraw = True
+159.6031 	EXP 	New trial (rep=0, index=67): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+159.6153 	DATA 	Keypress: 1
+159.6282 	EXP 	key: autoDraw = False
+159.6282 	EXP 	symbol: autoDraw = False
+159.6282 	EXP 	key: size = array([794, 173])
+159.6282 	EXP 	key: image = 'images/key.JPG'
+159.6282 	EXP 	symbol: size = array([111, 108])
+159.6282 	EXP 	symbol: image = '4.jpg'
+159.6282 	EXP 	key: autoDraw = True
+159.6282 	EXP 	symbol: autoDraw = True
+160.6637 	EXP 	New trial (rep=0, index=68): OrderedDict([('imgpath', '1.jpg'), ('corrans', ['1'])])
+160.6775 	DATA 	Keypress: 1
+160.6922 	EXP 	key: autoDraw = False
+160.6922 	EXP 	symbol: autoDraw = False
+160.6922 	EXP 	key: size = array([794, 173])
+160.6922 	EXP 	key: image = 'images/key.JPG'
+160.6922 	EXP 	symbol: size = array([111, 111])
+160.6922 	EXP 	symbol: image = '1.jpg'
+160.6922 	EXP 	key: autoDraw = True
+160.6922 	EXP 	symbol: autoDraw = True
+161.4643 	EXP 	New trial (rep=0, index=69): OrderedDict([('imgpath', '4.jpg'), ('corrans', ['1'])])
+161.4785 	DATA 	Keypress: 1
+161.4950 	EXP 	key: autoDraw = False
+161.4950 	EXP 	symbol: autoDraw = False
+161.4950 	EXP 	key: size = array([794, 173])
+161.4950 	EXP 	key: image = 'images/key.JPG'
+161.4950 	EXP 	symbol: size = array([111, 108])
+161.4950 	EXP 	symbol: image = '4.jpg'
+161.4950 	EXP 	key: autoDraw = True
+161.4950 	EXP 	symbol: autoDraw = True
+162.2746 	EXP 	key: autoDraw = False
+162.2746 	EXP 	symbol: autoDraw = False
+162.2746 	EXP 	text: autoDraw = True
+162.2777 	DATA 	Keypress: 1
+165.2757 	EXP 	text: autoDraw = False
+165.5453 	EXP 	window1: mouseVisible = True
